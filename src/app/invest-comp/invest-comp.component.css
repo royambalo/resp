@@ -1,0 +1,45 @@
+.h1Big{
+  width: 578px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+
+  color: #1E1E1E;
+}
+.h1Small{
+width: 320px;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 38px;
+
+color: #1E1E1E;
+}
+.pSmall{
+  width: 320px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+
+  color: #3A3A3A;
+}
+.pBig{
+width: 596px;
+
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 25px;
+
+
+color: #3A3A3A;
+}

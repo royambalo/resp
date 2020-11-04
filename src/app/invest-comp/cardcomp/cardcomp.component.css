@@ -1,0 +1,45 @@
+.cardMe {
+  background: #ffffff;
+  box-shadow: 5px 3px 25px rgba(166, 166, 166, 0.15);
+margin: 20px,20px;
+}
+.fontLeft {
+  width: 180px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 18px;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  margin: auto;
+}
+.fontRight {
+  width: 81px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #0f237d;
+  margin: auto;
+
+}
+.description {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+
+  color: #3a3a3a;
+}

@@ -1,0 +1,8 @@
+<div ngClass="cardMe" fxLayout="row wrap"  fxLayout.xs="column" [ngStyle.xs]="{'width':'320px','height':'446px','margin-top': '50px'}" [ngStyle.gt-xs]="{'max-width':'344px','height':'421px','margin-top': '50px'}" [ngStyle.gt-md]="{'width':'330px','height':'421px'}">
+    <img  style="height: 200px;"  src={{item.url}} [ngStyle.xs]="{'width':'320px'}" [ngStyle.gt-md]="{'width':'330px'}" [ngStyle.gt-xs]="{'width':'344px'}">
+    <div  [ngStyle]="{'background-color':colorBackGrounf}" style="height:43px;" fxflex fxLayoutAlign="space-between" fxLayout="row"[ngStyle.xs]="{'width':'320px'}" [ngStyle.gt-md]="{'width':'330px'}" [ngStyle.gt-xs]="{'width':'344px'}" >
+        <div ngClass="fontLeft" [ngStyle]="{'color':fontColorLeft}" >{{item.name}}</div>
+        <div ngClass="fontRight" [ngStyle]="{'color':fontColorRight}">{{item.sectorsName}}</div>
+    </div>
+      <div ngClass="description"  fxFlexOffset.xs="26px" [ngStyle.xs]="{'width':'280px'}" [ngStyle.gt-xs]="{'width':'304px'}" [ngStyle.gt-md]="{'width':'310px'}">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ea vitae, eligendi modi numquam amet maxime delectus aliquam explicabo itaque, nostrum quos rerum ducimus quod quae fugiat aperiam ipsum tenetur nemo libero quia ipsa inventore. Harum tenetur quidem nesciunt quae?</div>
+</div>

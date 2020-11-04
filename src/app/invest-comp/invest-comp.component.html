@@ -1,0 +1,19 @@
+<div flexlayout="column" >
+
+  <div fxLayout.xs="column" fxLayoutAlign="space-between" fxLayout.gt-xs="row" [ngStyle.xs]="{'max-width':'320px'}" [ngStyle.gt-xs]="{'max-width':'708px'}" [ngStyle.gt-md]="{'max-width':'1240px'}" >
+    <div  fxFlexOrder='1' fxFlexOrder.xs='2' fxFlexOffset.xs="32px" fxLayout="column">
+          <h1 ngClass.xs="h1Small" ngClass.gt-xs="h1Big">Investments opportunities: Companies & Venture Fundse</h1>
+          <div ngClass.xs="pSmall" ngClass.gt-xs="pBig"  fxFlexOffset.xs="19px" fxFlexOffset.gt-xs="32px"  >
+            Invest with Us: Start-Ups, Funds & Products We’ve done all the hard work for
+            you. Leverage our expertise and thorough due-diligence process and find your
+            next investment opportunity here
+          </div>
+        </div>
+        <div fxLayoutAlign.sm="center end"  style="width: 140px;" fxFlexOrder='2' fxFlexOrder.xs='1' ><img [ngStyle.xs]="{'width':'110px','height':'96px'}" [ngStyle.gt-xs]="{'width':'122px','height':'105px'}" [ngStyle.gt-md]="{'width':'156px','height':'134px'}" src="https://www.investination.com/assets/img/model-ill2.png" alt=""></div>
+      </div>
+
+      <div [ngStyle.gt-md]="{'margin-top':'17px'}" fxLayoutAlign="center center" [ngStyle.gt-xs]="{'margin-top':'46px'}" [ngStyle.xs]="{'margin-top':'59px','width':'340px'}" fxLayout.xs="column" fxLayout.gt-xs="row wrap" >
+        <app-cardcomp  fxFlexOffset.gt-xs="20px" *ngFor="let item of serviceCard.cards|async;let i=index" [item]="item" [i]="i%3" ></app-cardcomp>
+
+      </div>
+    </div>
